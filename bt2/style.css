@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.menu_header {
+    margin-top: -4px;
+    display: flex;
+    list-style: none;
+    background-color: #e7d6c7;
+}
+.menu_header li {
+    line-height: 50px;
+    width: 17%;
+    text-align: center;
+    border: 3px #d9bba9 double;
+}
+.menu_header li:hover {
+    cursor: pointer;
+    background-color: #e7b991;
+}
+.menu_header li a {
+    color: #000000;
+    text-decoration: none;
+}
+.header_bottom {
+    background-color: #b24d30;
+    width: 100%;
+    height: 30px;
+}
+.body_content {
+    display: flex;
+}
+.body_left {
+    width: 20%;
+    height: 900px;
+    background-color: #a94312;
+}
+.body_left h4 {
+    background-color: #b46916;
+    color: #ffffff;
+    line-height: 50px;
+    padding-left: 10px;
+}
+.menu_list {
+    list-style: none;
+    background-color: #921116;
+    
+}
+.menu_list li {
+    border: 1px #aa3a14 solid;
+    line-height: 30px;
+}
+.menu_list li:hover {
+    background-color:#c54b4f;
+    cursor: pointer;
+}
+.menu_list li a {
+    font-size: 14px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.body_right {
+    margin-left: 3px;
+    width: 80%;
+}
+.product_content {
+    
+}
+.product_content h4 {
+    margin-top: -4px;
+    background-color: #c0750f;
+    color: #ffffff;
+    line-height: 30px;
+    padding-left: 5px;
+}
+.product_list {
+    padding-top: 20px;
+}
+.product_list_top {
+    display: flex;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.product_item {
+    width: 25%;
+    padding: 10px;
+}
+.product_item-text1 {
+    background-color: #d5c7ae;
+    color: #ffffff;
+    line-height: 24px;
+    text-align: start;
+    padding-left: 5px;
+    margin-bottom: 3px;
+}
+.product_item-text2 {
+    background-color: #c0b3a0;
+    color: #ffffff;
+    line-height: 24px;
+    text-align: start;
+    padding-left: 5px;
+}
+.footer_menu{
+    background-color: #070000;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    line-height: 28px;
+}
+.footer_menu li {
+    width: 10%;
+    text-align: center;
+}
+.footer_menu li a {
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer_info {
+    background-color: #b5895a;
+    color: #000000;
+    text-align: center;
+    padding: 30px;
+}
